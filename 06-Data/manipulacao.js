@@ -1,3 +1,10 @@
-let date = Date();
+let d = new Date();
 
-console.log(date);
+// let novovalor = d.getDate();
+// let novovalor = d.getMonth();
+// let novovalor = d.getFullYear();
+d.setDate(d.getDate() + 9)
+
+let novovalor = d;
+
+console.log(novovalor);
