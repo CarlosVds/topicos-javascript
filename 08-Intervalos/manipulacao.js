@@ -31,7 +31,7 @@ function showTime(){
     let m = d.getMinutes();
     let s = d.getSeconds();
 
-    hrs = h+":"+m+":"+s; 
+    hrs = h+":"+m+":"+(s < 10 ? '0' + s : s); 
 
     document.querySelector('.texto').innerHTML = "Hora certa :" 
     document.querySelector('.time').innerHTML = hrs;
